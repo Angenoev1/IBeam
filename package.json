@@ -1,0 +1,33 @@
+{
+  "name": "lp-reward-contracts",
+  "version": "1.0.0",
+  "description": "ERC20 reward distribution contracts",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx truffle compile",
+    "compile:all": "npx truffle compile --all",
+    "deploy:mainnet": "npx truffle migrate --network mainnet --f 3 --to 3",
+    "deploy:kovan": "npx truffle migrate --network kovan --f 3 --to 3",
+    "deploy:rinkeby": "npx truffle migrate --network rinkeby --f 3 --to 3",
+    "deploy:local": "npx truffle migrate --network local --f 3 --to 3",
+    "test:truffle": "npx truffle test --network test",
+    "clean": "rm -rf ./build"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "4.2.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-environment": "^0.1.8",
+    "@openzeppelin/test-helpers": "^0.5.9",
+    "@truffle/hdwallet-provider": "^1.2.0",
+    "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "fs": "^0.0.1-security",
+    "mocha": "^8.2.1",
+    "path": "^0.12.7",
+    "truffle": "5.1.64",
+    "truffle-flattener": "^1.5.0",
+    "truffle-plugin-verify": "^0.5.4",
+    "web3": "^1.3.0"
+  }
+}

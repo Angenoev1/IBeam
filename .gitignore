@@ -1,0 +1,13 @@
+.idea
+
+/node_modules/
+/build/
+.openzeppelin
+
+.env
+
+package-lock.json
+
+yarn.lock
+
+deployed/
