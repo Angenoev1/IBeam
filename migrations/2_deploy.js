@@ -6,7 +6,7 @@ const path = require("path");
 const BeamToken = artifacts.require("BeamToken");
 
 // test token params
-const name = "IBeam";
+const name = "Beam";
 const symbol = "BEAM";
 const supply = ether("5000000"); // 5,000,000 tokens
 
